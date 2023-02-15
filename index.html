@@ -1,4 +1,20 @@
 <!DoctypeHTML>
 <html>
+  <script src="main.js"></script>
   <head>
+    <link rel="stylesheet" href="styles.css">
+    </head>head>
     <body>
+    <script>result = '';newText = '';
+    </script>
+    <h1>Welcome to my Generator of Doom!</h1>
+    <p>This generator will create my own secret language that translates letters to other characters. You can type in your own words and it will give back my language, or you could type in my language and it will return English.</p>
+    <form name="language">
+    <input type="text" name="originalText" style="background-color:rgb(225, 225, 225);" value="Enter made up language or English"></input>
+    <input tyle="button" onclick="for(let i = 0; i<= language.originalText.value.length; i++){newText += change(language.originalText.value.charAt(i))}
+    ;document.getElementById('asdf').value = newText;" value="Convert to made up code" style="width:30%;background-color:blue"></input>
+    <input tyle="button" value="Convert made up code to English" style="width:30%;margin-right:12%;background-color:red"></input>
+    <input type="text" style="background-color:rgb(225, 225, 225);" id="asdf" value="Result:"></input>
+    </form>
+   </body>
+    </html>
