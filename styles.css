@@ -1,0 +1,44 @@
+body{
+    background-color:black
+}
+h1{
+    background-color: white;
+    color: black;
+    font-size: 250%;
+    padding: 15px;
+    border-radius:15px;
+    margin:auto;
+    margin-top: 10px;
+    width:50%;
+}
+h1{
+    background-color: white;
+    color: black;
+    font-size: 250%;
+    padding: 15px;
+    border-radius:15px;
+    margin:auto;
+    margin-top: 10px;
+    width:50%;
+}
+p{
+    background-color: white;
+    color: black;
+    font-size: 150%;
+    padding: 15px;
+    border-radius:15px;
+    margin:auto;
+    margin-top: 10px;
+    width:75%;
+}
+input{
+    background-color: white;
+    color: black;
+    font-size: 150%;
+    padding: 15px;
+    border-radius:15px;
+    float:right;
+    margin-right:11%;
+    margin-top: 10px;
+    width:75%;
+}
